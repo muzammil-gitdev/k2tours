@@ -7,19 +7,19 @@ interface DestinationCard {
 
 const destinations: DestinationCard[] = [
   {
-    imgSrc: "../src/assets/images/destination-1.webp",
+    imgSrc: "../src/assets/images/card.jpg",
     title: "Serenity at Skardu City",
     location: "Skardu, Gilgit-Baltistan, Pakistan",
     rating: "4.7",
   },
   {
-    imgSrc: "../src/assets/images/destination-2.webp",
+    imgSrc: "../src/assets/images/card2.jpg",
     title: "A view of Mighty Indus",
     location: "Gahkuch, Ghizer, Pakistan",
     rating: "4.8",
   },
   {
-    imgSrc: "../src/assets/images/destination-3.webp",
+    imgSrc: "../src/assets/images/card3.webp",
     title: "Calm in Gilgit City",
     location: "Gilgit City, Gilgit-Baltitan, Pakistan",
     rating: "4.5",

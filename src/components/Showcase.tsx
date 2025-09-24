@@ -2,7 +2,7 @@ const Showcase: React.FC = () => {
   return (
     <section className="section__container showcase__container">
       <div className="showcase__image">
-        <img src="img/showcase1.jpeg" alt="showcase" />
+        <img src="../src/assets/images/showcase.jpg" alt="showcase" />
       </div>
       <div className="showcase__content">
         <h4>Ignite Your Wanderlust with Every Bus Ride</h4>

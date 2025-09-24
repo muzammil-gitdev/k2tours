@@ -150,7 +150,7 @@ nav {
   isolation: isolate;
   overflow: hidden;
 }
-header::before{
+/* header::before{
   position:absolute;
   content: "";
   height: 100%;
@@ -164,11 +164,15 @@ header::before{
   background-repeat: no-repeat;
   border-radius: 3rem;
   z-index: -1;
-} 
+}  */
 .header__container{
   display: grid;
-
+  background-image: linear-gradient(rgba(70, 70, 70, 0.6),rgba(70, 70, 70,0.6)),url(assets/images/hero-bg.webp);
+  overflow: hidden;
+  background-position: center;
+  border-radius: 50px;
 }
+
 .header__content{
   padding: 4rem 1rem;
 }
@@ -380,11 +384,11 @@ columns: var(--text-dark);
     padding: 1.5rem;
     font-weight: 600;
     color: var(--text-dark);
-    background-image: url(img/showcase2.jpeg);
+    background-image: linear-gradient(rgba(70, 70, 70, 0.6),rgba(70, 70, 70,0.6)),url(assets/images/showcase2.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
-    border-radius: 5px;
+    border-radius: 8px;
   }
 
   .banner__container{

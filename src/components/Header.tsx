@@ -12,9 +12,9 @@ const Header: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="header__image">
+        {/* <div className="header__image">
           <img src="../src/assets/images/hero-bg.webp" alt="header" />
-        </div>
+        </div> */}
       </div>
     </header>
   );
